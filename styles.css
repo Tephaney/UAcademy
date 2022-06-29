@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+/* Navbar */
+.navbar-links {
+    margin-left: auto;
+   
+}
+
+.navbar {
+    background: #16262e;
+    padding: 0!;
+    
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    /* font-weight: 400; */
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover {
+    color: #ffb30f;
+    
+}
+
+.icon {
+    padding-left: 20px;
+    color: #ffb30f;
+}
+
+.fa-bars {
+    color: #ffb30f;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+/*End of Navbar */
+
+/* Banner */
+
+#banner {
+    background-image: linear-gradient(to right, #2e4756, #eee);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.slogan {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.banner-paragraph {
+    color: #ffb30f;
+}
+
+.banner-btn {
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #16262e;
+    font-weight: 600;
+    
+}
+
+.banner-btn:hover {
+    background-color: #deaa86;
+    /* color: ; */
+}
+
+.banner-img {
+    max-width: 50%;
+    height: 40vh;
+    min-height: 30vh;
+    margin: 45px;
+    border-radius: 3rem;
+    float: right;
+    position: relative;
+    top: -90px;
+    border:2px solid #fff;
+    box-shadow: 0px 3px 15px #9e9d9de4;
+    
+}
+
+.banner-img:hover {
+    box-shadow: 0px 3px 15px #d79728;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+/* End of Banner */
+
+/* About Me */
+.coach {
+    width: 35%;
+    height: 50vh;
+    margin: 45px;
+    border-radius: 3rem;
+    float: right;
+}
+
+/* End of About Me */
+
+/* Services */
+
+.services-title {
+    text-align: center;
+    margin: 3rem;
+}
+
+.card-container{
+    display: flex;
+}
+    
+.card{
+      margin: 20px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+      
+.card-count-container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        padding: 20px 0px;
+}
+      
+.card-count{
+        font-weight: bold;
+        font-size: 100px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: auto;
+        margin-right: -50px;
+        padding-right: 25px;
+        overflow: hidden;
+        color: #ffffff;
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.2s ease-in-out;
+}
+      
+.card-content{
+        padding: 20px;
+        padding-top: 0px;
+        
+}
+
+h2{
+        margin-top: 0px;
+        text-align: center;
+}
+    
+      
+.card-footer{
+        padding: 20px;
+        color: #ffffff;
+}
+
+.services-btn {
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #16262e;
+    font-weight: 600;
+}
+
+.services-btn:hover {
+    background: #16262e;
+    color: #ffb30f;
+}
+      
+:nth-child(1) .card-count, .card-footer{
+        background-image: linear-gradient(90deg, #f6671f, #c01b1c);
+    }
+      
+:nth-child(2) .card-count, .card-footer{
+          background-image: linear-gradient(90deg, #fec22f, #ea9826);
+    }
+
+      
+:nth-child(3) .card-count, .card-footer{
+         background-image: linear-gradient(90deg, #eee, #2e4756);
+    }
+
+      
+
+.card-count:hover {
+            width: 160px;
+            height: 160px;
+    }
+
+
+    
+/* End of Services */
+
+
+/* Responsiveness */
+
+
+/* Service Cards */
+@media (max-width: 767px){
+    flex-wrap: wrap;
+  }
+}
